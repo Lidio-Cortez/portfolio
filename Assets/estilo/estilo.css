@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 @charset "UTF-8";
+=======
+>>>>>>> aa91bb7 (initicial commit)
 /*---------------------------------------------------Variaveis-------------------*/
 :root{
     --primarycolor: #262626;
@@ -17,6 +20,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 /*----------------------------------------------------------------Header-----------------------------------*/
+<<<<<<< HEAD
 header{
     background-color: var(--primarycolor);
     background: url('../img/header-background.jpg')no-repeat center center;
@@ -25,6 +29,17 @@ header{
 }
 header > nav{
     background-color: var(--primaryopacitycolor);
+=======
+
+header{
+    background-color: var(--secudarycolor);   
+}
+header > nav{
+    position: fixed;
+    width: 100vw;
+    background-color: rgb(29, 27, 27);
+    
+>>>>>>> aa91bb7 (initicial commit)
 }
 header > nav > .container{
     height: 60px;
@@ -36,6 +51,10 @@ header > nav > .container{
 }
 header > nav > .container > h2 > a{
     color: var(--brandcolor);
+<<<<<<< HEAD
+=======
+    text-decoration: none;
+>>>>>>> aa91bb7 (initicial commit)
 }
 header > nav > .container > ul{
     display: flex;
@@ -46,6 +65,13 @@ header > nav > .container > ul > li{
     margin-left: 20px;
     transition: all 1s;
 }
+<<<<<<< HEAD
+=======
+header > nav > .container > ul > li > a#active{
+   color: var(--brandcolor);
+   font-weight: bold;
+}
+>>>>>>> aa91bb7 (initicial commit)
 header > nav > .container > ul > li:hover{
     border-bottom: 1px solid var(--brandcolor);
 }
@@ -68,6 +94,7 @@ header > nav > .container > ul > li > a:hover{
     height: 3px;
     margin-top: 4px;
 }
+<<<<<<< HEAD
 header .hero{
     height: 80vh;
     display: flex;
@@ -91,6 +118,51 @@ header .hero-content{
     width: 90%;
     margin: 0px auto;
 
+=======
+header > .hero{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0px auto; 
+}
+
+header > .hero > .hero-content, 
+header > .hero > .hero-img {
+    flex: 1; 
+}
+header > .hero > .hero-content > p{
+    font-size: 20pt;
+}
+header > .hero > .hero-content > h1{
+    color: white;
+    font-size: 35pt;
+    font-weight: bold;
+}
+header > .hero > .hero-content > h2 {
+    color:white;
+}
+header > .hero > .hero-content > span{
+    color: var(--brandcolor);
+}
+
+header > .hero > .hero-content > .pai-button{
+    text-align: left;
+    padding-top: 20px;
+}
+header > .hero > .hero-content > .pai-button >  button{
+    border: none;
+    padding: 10px;
+    background-color: var(--brandcolor);
+    width: 100px;
+    color: var(--linkcolor);
+    cursor: pointer;
+}
+header > .hero > .hero-img > img{
+    width: 50%;
+    height: 50%;
+>>>>>>> aa91bb7 (initicial commit)
 }
 header .footer{
     height: 13vh;
@@ -126,17 +198,30 @@ main h2{
     flex-wrap: wrap;
 }
 .box-img{
+<<<<<<< HEAD
     flex: 1 1 200px;
+=======
+    flex: 1 0 200px;
+>>>>>>> aa91bb7 (initicial commit)
     background-color: var(--brandcolor);
     background: url("../img/Lidio.jpg") no-repeat;
     background-size: cover;
     background-position: center center;
+<<<<<<< HEAD
     height: 450px;
     border-radius: 20px 0px 0px 20px;
 }
 .box-content{
     flex: 2 1 300px;
     padding: 5px 20px;
+=======
+    height: 350px;
+    border-radius: 20px;
+}
+.box-content{
+    flex: 2 0 400px;
+    padding: 20px 20px;
+>>>>>>> aa91bb7 (initicial commit)
 }
 .box-content p{
     text-align: justify;
@@ -206,6 +291,7 @@ svg{
     text-align: center;
 }
 .container-portfolio #card{
+<<<<<<< HEAD
     background-color: white;
     margin: 10px;
     border-radius: 10px;
@@ -223,6 +309,35 @@ svg{
 }
 .container-portfolio > #card > .card-body{
     padding: 10px;
+=======
+    background-color: #181818;
+    margin: 10px;
+    border-radius: 10px;
+}
+.container-portfolio #card:hover{
+    background-color: var(--primarycolor);
+    box-shadow: 3px 3px 10px #181818;
+}
+.container-portfolio > #card > a{
+    color: white;
+    text-align: justify;
+    text-decoration: none;
+}
+.container-portfolio > #card > a > .card-img{
+    height: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
+.container-portfolio > #card > a > .card-img > img{ 
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.container-portfolio > #card > a > .card-body{
+    padding: 20px;
+}
+.container-portfolio > #card > a > .card-body > p > span{
+    color: var(--brandcolor);
+>>>>>>> aa91bb7 (initicial commit)
 }
 
 .item{
@@ -350,6 +465,7 @@ svg{
     width: 25px;
     height: 25px;
 }
+<<<<<<< HEAD
 /*---------------------------------------------------------Media Query---------------------------*/
 @media only screen and (max-width: 760px){
     
@@ -408,3 +524,5 @@ svg{
         width: 100%;
     }
 }
+=======
+>>>>>>> aa91bb7 (initicial commit)

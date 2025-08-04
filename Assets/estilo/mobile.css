@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/*---------------------------------------------------------Media Query---------------------------*/
+@media only screen and (max-width: 760px){
+    
+    #humberger{
+        display: block;
+    }
+    header nav #humberger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    header nav #humberger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    header nav #humberger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    header nav div ul{
+        position: fixed;
+        left: 100%;
+        top: 50px;
+        gap: 0;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        transition: 0.3s;
+        background-color: #1f1f1f;
+    }
+    header nav div ul.active{
+        left: 0%;
+    }
+    header nav div ul li{
+        margin: 16px 0; 
+    }
+    header > nav > .container > ul > li > a:hover{
+        color: var(--brandcolor);
+    }
+    .box-img{
+        border-radius: 20px 20px 0px 0px;
+    }
+    .box-section-skills{
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+    
+        
+    }
+    .container-portfolio{
+        padding-bottom: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    #section-contact > form > #inputNome{
+        width: 100%;
+    }
+    #section-contact > form{
+        width: 100%;
+    }
+}
