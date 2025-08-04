@@ -1,7 +1,5 @@
-<<<<<<< HEAD
+
 @charset "UTF-8";
-=======
->>>>>>> aa91bb7 (initicial commit)
 /*---------------------------------------------------Variaveis-------------------*/
 :root{
     --primarycolor: #262626;
@@ -20,16 +18,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 /*----------------------------------------------------------------Header-----------------------------------*/
-<<<<<<< HEAD
-header{
-    background-color: var(--primarycolor);
-    background: url('../img/header-background.jpg')no-repeat center center;
-    background-size: cover;
-    
-}
-header > nav{
-    background-color: var(--primaryopacitycolor);
-=======
+
 
 header{
     background-color: var(--secudarycolor);   
@@ -39,7 +28,6 @@ header > nav{
     width: 100vw;
     background-color: rgb(29, 27, 27);
     
->>>>>>> aa91bb7 (initicial commit)
 }
 header > nav > .container{
     height: 60px;
@@ -51,10 +39,6 @@ header > nav > .container{
 }
 header > nav > .container > h2 > a{
     color: var(--brandcolor);
-<<<<<<< HEAD
-=======
-    text-decoration: none;
->>>>>>> aa91bb7 (initicial commit)
 }
 header > nav > .container > ul{
     display: flex;
@@ -65,13 +49,6 @@ header > nav > .container > ul > li{
     margin-left: 20px;
     transition: all 1s;
 }
-<<<<<<< HEAD
-=======
-header > nav > .container > ul > li > a#active{
-   color: var(--brandcolor);
-   font-weight: bold;
-}
->>>>>>> aa91bb7 (initicial commit)
 header > nav > .container > ul > li:hover{
     border-bottom: 1px solid var(--brandcolor);
 }
@@ -94,31 +71,7 @@ header > nav > .container > ul > li > a:hover{
     height: 3px;
     margin-top: 4px;
 }
-<<<<<<< HEAD
-header .hero{
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    background-color: var(--primaryopacitycolor);
-}
-header .hero p{
-    color: #c1c1c1;
-    font-size: 20pt;
-}
-header .hero h1{
-    color: var(--linkcolor);
-    font-size: 35pt;
-    font-weight: bold;
-}
-header .hero span{
-    text-decoration: underline;
-    color: var(--brandcolor);
-}
-header .hero-content{
-    width: 90%;
-    margin: 0px auto;
 
-=======
 header > .hero{
     height: 80vh;
     display: flex;
@@ -162,7 +115,6 @@ header > .hero > .hero-content > .pai-button >  button{
 header > .hero > .hero-img > img{
     width: 50%;
     height: 50%;
->>>>>>> aa91bb7 (initicial commit)
 }
 header .footer{
     height: 13vh;
@@ -198,30 +150,21 @@ main h2{
     flex-wrap: wrap;
 }
 .box-img{
-<<<<<<< HEAD
-    flex: 1 1 200px;
-=======
-    flex: 1 0 200px;
->>>>>>> aa91bb7 (initicial commit)
+
     background-color: var(--brandcolor);
     background: url("../img/Lidio.jpg") no-repeat;
     background-size: cover;
     background-position: center center;
-<<<<<<< HEAD
-    height: 450px;
-    border-radius: 20px 0px 0px 20px;
+
 }
 .box-content{
-    flex: 2 1 300px;
-    padding: 5px 20px;
-=======
+   
     height: 350px;
     border-radius: 20px;
 }
 .box-content{
     flex: 2 0 400px;
     padding: 20px 20px;
->>>>>>> aa91bb7 (initicial commit)
 }
 .box-content p{
     text-align: justify;
@@ -290,26 +233,10 @@ svg{
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
 }
-.container-portfolio #card{
-<<<<<<< HEAD
-    background-color: white;
-    margin: 10px;
-    border-radius: 10px;
-    transition: all 1.5s;
-}
-.container-portfolio #card:hover{
-    box-shadow: 3px 3px 10px black;
-}
-.container-portfolio > #card > .card-img{
-    height: 250px;
-    background-image: url('../img/GestaoEscolar.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px 10px 0px 0px;
-}
+
+
 .container-portfolio > #card > .card-body{
-    padding: 10px;
-=======
+  
     background-color: #181818;
     margin: 10px;
     border-radius: 10px;
@@ -334,10 +261,6 @@ svg{
 }
 .container-portfolio > #card > a > .card-body{
     padding: 20px;
-}
-.container-portfolio > #card > a > .card-body > p > span{
-    color: var(--brandcolor);
->>>>>>> aa91bb7 (initicial commit)
 }
 
 .item{
@@ -465,64 +388,4 @@ svg{
     width: 25px;
     height: 25px;
 }
-<<<<<<< HEAD
-/*---------------------------------------------------------Media Query---------------------------*/
-@media only screen and (max-width: 760px){
-    
-    #humberger{
-        display: block;
-    }
-    header nav #humberger.active .bar:nth-child(2){
-        opacity: 0;
-    }
-    header nav #humberger.active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    }
-    header nav #humberger.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-    }
-    header nav div ul{
-        position: fixed;
-        left: 100%;
-        top: 50px;
-        gap: 0;
-        flex-direction: column;
-        text-align: center;
-        width: 100%;
-        transition: 0.3s;
-        background-color: #1f1f1f;
-    }
-    header nav div ul.active{
-        left: 0%;
-    }
-    header nav div ul li{
-        margin: 16px 0; 
-    }
-    header > nav > .container > ul > li > a:hover{
-        color: var(--brandcolor);
-    }
-    .box-img{
-        border-radius: 20px 20px 0px 0px;
-    }
-    .box-section-skills{
-        padding-top: 50px;
-        display: grid;
-        grid-template-columns: 1fr;
-    
-        
-    }
-    .container-portfolio{
-        padding-bottom: 10px;
-        display: grid;
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-    #section-contact > form > #inputNome{
-        width: 100%;
-    }
-    #section-contact > form{
-        width: 100%;
-    }
-}
-=======
->>>>>>> aa91bb7 (initicial commit)
+
