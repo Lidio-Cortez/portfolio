@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Para scroll suave no CSS */
+html {
+  scroll-behavior: smooth;
+}
+  body {
+    @apply bg-slate-50 text-slate-900 dark:bg-[#07090e] dark:text-white transition-colors duration-300 antialiased;
+  }
+}
