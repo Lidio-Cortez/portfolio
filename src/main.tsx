@@ -4,10 +4,16 @@ import App from './App.jsx'
 import './index.css'
 import { ThemeProvider } from './context/ThemeContext.jsx'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const rootElement = document.getElementById('root');
+
+if (!rootElement) {
+  throw new Error('Elemento root não encontrado.');
+}
+
+ReactDOM.createRoot(rootElement).render(
   <React.StrictMode>
     <ThemeProvider>
       <App />
     </ThemeProvider>
   </React.StrictMode>,
-)
+);

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Sun, Moon, ArrowUpRight } from 'lucide-react';
 import { useTheme } from '../../context/ThemeContext'; // Importa o hook do tema
 import HireModal from '../ui/HireModal';
