@@ -1,32 +1,63 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+# 💻 Lídio Cortez | Desenvolvidor FullStack 
 
-Currently, two official plugins are available:
+### 👋 Bem-vindo ao meu portfólio no GitHub!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Sou um **desenvolvidor fullstack** com paixão por criar soluções criativas e funcionais. Trabalho principalmente com **PHP(Laravel), Java, TailWind, React** e bancos de dados relacionais **MySQL e Postgre** . Tenho experiência em desenvolvimento full-stack e estou sempre buscando aprender e crescer como desenvolvedor.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Habilidades Técnicas
 
-## Expanding the Oxlint configuration
+- **Linguagens:** PHP, JavaScript, Java
+- **Frameworks:** Tailwind, Laravel
+- **Bibliotecas:** React
+- **Banco de Dados:** MySQL, Postgre
+- **Ferramentas:** Git e GitHub, VS Code, Insonia
+- **Outros:** RESTful APIs, MVC
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+---
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## 🌟 O que você encontrará aqui
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+- Projetos práticos e bem documentados
+- Aplicações utilizando a arquitetura MVC
+- Sistemas interativos com foco em design responsivo
+- Soluções criativas para problemas reais
+
+---
+
+## 📂 Principais Projetos
+
+### 🎓 Sistema de Gestão Escolar
+> Um sistema completo de gestão escolar utilizando PHP, MySQL e MVC.
+
+### 🛠️ Aplicativo de Gestão de Funcionários
+> Um aplicativo Windows Forms em C# para controle eficiente de funcionários.
+
+### 🌐 Website Responsivo
+> Um site moderno e responsivo para empresas, desenvolvido com HTML5, CSS3 e Bootstrap.
+
+Mais detalhes sobre cada projeto estão disponíveis nos repositórios correspondentes!
+
+---
+
+## 📈 Objetivos Profissionais
+
+Atualmente, estou focado em:
+1. Aprofundar meu conhecimento em **desenvolvimento backend** com **PHP**.
+2. Ampliar minha atuação como **freelancer** para alcançar mercados internacionais, especialmente em **Angola**.
+3. Criar soluções inovadoras em **marketing digital** e gerenciamento de redes sociais.
+
+---
+
+## 📬 Entre em Contato
+
+📧 **E-mail:** lidio334cortez@gmail.com 
+💼 **LinkedIn:** [Lídio-Cortez](www.linkedin.com/in/lidio-cortez)  
+📂 **Portfólio:** Aqui no GitHub!
+
+---
+
+Obrigado por visitar meu portfólio! 🚀  
+Se gostou de algum projeto ou tem interesse em colaborar, não hesite em entrar em contato. Juntos podemos construir algo incrível! 💡
