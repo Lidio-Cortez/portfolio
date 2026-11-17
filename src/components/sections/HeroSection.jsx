@@ -64,7 +64,7 @@ export function HeroSection() {
         <div className="relative w-full max-w-md aspect-[4/5] rounded-full overflow-hidden border border-slate-200 dark:border-white/10 p-1 dark:bg-transparent shadow-xl dark:shadow-none">
           <div className="w-full h-full rounded-full  dark:bg-[#0b0e14] overflow-hidden relative">
             <img 
-              src="./src/assets/profile.png" 
+              src="./public/profile.png" 
               alt="Desenvolvedor" 
               className="w-full h-full object-cover"
             />
