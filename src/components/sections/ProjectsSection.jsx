@@ -33,24 +33,8 @@ export function ProjectsSection() {
             whileHover={{ y: -8, transition: { duration: 0.2 } }}
             className="border border-slate-200 dark:border-white/5 bg-white dark:bg-[#0a0d14] overflow-hidden group cursor-pointer shadow-sm dark:shadow-none"
           >
-            <div className="aspect-[4/3] bg-slate-100 dark:bg-[#111520] p-6 border-b border-slate-200 dark:border-white/5 relative flex items-center justify-center">
-              <div className="w-full h-full border border-slate-200 dark:border-white/10 bg-slate-50 dark:bg-[#090c12] rounded p-3 flex flex-col justify-between shadow-sm dark:shadow-2xl">
-                <div className="flex gap-1.5">
-                  <div className="w-2 h-2 rounded-full bg-slate-300 dark:bg-white/20"></div>
-                  <div className="w-2 h-2 rounded-full bg-slate-300 dark:bg-white/20"></div>
-                  <div className="w-2 h-2 rounded-full bg-slate-300 dark:bg-white/20"></div>
-                </div>
-                <div className="space-y-2 py-4">
-                  <div className="h-2 w-1/3 bg-slate-200 dark:bg-white/10 rounded"></div>
-                  <div className="h-2 w-2/3 bg-slate-200 dark:bg-white/10 rounded"></div>
-                </div>
-                <div className="flex gap-2 items-end">
-                  <div className="w-1/4 h-12 bg-slate-200 dark:bg-white/10 rounded-t"></div>
-                  <div className="w-1/4 h-20 bg-slate-300 dark:bg-white/20 rounded-t"></div>
-                  <div className="w-1/4 h-16 bg-slate-200 dark:bg-white/10 rounded-t"></div>
-                  <div className="w-1/4 h-24 bg-slate-400 dark:bg-white/30 rounded-t"></div>
-                </div>
-              </div>
+            <div className="aspect-[4/3]  p-6 border-b border-slate-200 dark:border-white/5 relative flex items-center justify-center"  style={{ backgroundImage: `url(${proj.img})`, backgroundSize: '100% 110%' }}>
+
             </div>
 
             <div className="p-6 space-y-4">
@@ -60,7 +44,7 @@ export function ProjectsSection() {
               </div>
               <h3 className="text-2xl font-light text-slate-900 dark:text-white">{proj.title}</h3>
               <p className="text-xs text-slate-600 dark:text-gray-400 font-light leading-relaxed">{proj.description}</p>
-              <a href={proj.link} className="inline-flex items-center gap-2 font-mono text-xs text-slate-900 dark:text-white pt-2 hover:text-slate-600 dark:hover:text-gray-300 transition-colors">
+              <a href={proj.link} target='__blank' className="inline-flex items-center gap-2 font-mono text-xs text-slate-900 dark:text-white pt-2 hover:text-slate-600 dark:hover:text-gray-300 transition-colors">
                 VER PROJETO <ArrowUpRight className="w-3.5 h-3.5" />
               </a>
             </div>

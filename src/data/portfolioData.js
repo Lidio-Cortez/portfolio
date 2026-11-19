@@ -42,10 +42,11 @@ export const STATS = [
 export const PROJECTS = [
   {
     id: "01",
-    category: "FINTECH / FULL-STACK",
-    title: "Finora",
-    description: "Plataforma financeira para equipas acompanharem receitas, despesas e previsões em tempo real.",
-    link: "#",
+    category: "Landpage / FRONT_END",
+    title: "ELIMY METAL",
+    description: "Empresa angolana de produção e venda de utensílios de cozinha(panelas, colheres, garfos...), localizada em viana.",
+    img: 'elimy_metal.png',
+    link: "https://elimy-metal.vercel.app/",
   },
   {
     id: "02",
